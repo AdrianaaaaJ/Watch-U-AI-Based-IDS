@@ -1,0 +1,14 @@
+/.env
+/data/*.sqlite
+/data/*.sqlite-*
+/data/*.db
+/data/*.log
+/data/*.lock
+/data/*.pid
+/data/sessions/
+/data/generated-reports/
+/database/*.sqlite
+/database/*.sqlite-*
+/reports/*.csv
+__pycache__/
+*.pyc

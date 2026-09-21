@@ -1,0 +1,4 @@
+{"timestamp":"2026-07-20T02:11:40.000000+00:00","event_type":"alert","src_ip":"10.10.10.117","src_port":49822,"dest_ip":"198.51.100.27","dest_port":443,"proto":"TCP","alert":{"action":"allowed","signature_id":2024218,"signature":"ET MALWARE Possible Cobalt Strike Malleable C2 Response","category":"Command and Control","severity":1}}
+{"timestamp":"2026-07-20T02:11:45.000000+00:00","event_type":"alert","src_ip":"10.10.10.117","src_port":49824,"dest_ip":"198.51.100.27","dest_port":443,"proto":"TCP","alert":{"action":"allowed","signature_id":2024218,"signature":"ET MALWARE Possible Cobalt Strike Malleable C2 Response","category":"Command and Control","severity":1}}
+{"timestamp":"2026-07-20T02:15:20+00:00","rule":{"level":12,"description":"Multiple Windows logon failures followed by success","groups":["authentication_failed","windows"]},"agent":{"id":"017","name":"ops-ws-17","ip":"10.10.10.117"},"data":{"srcip":"10.10.10.117","dstuser":"local-admin"}}
+

@@ -1,0 +1,12 @@
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(?:app|database|data|python|scripts|tests)(?:/|$) - [F,L,NC]
+    RewriteRule ^\.env(?:\.|$) - [F,L,NC]
+</IfModule>
+
+<FilesMatch "^(?:\.env|composer\.(?:json|lock)|phpunit\.xml)$">
+    Require all denied
+</FilesMatch>
